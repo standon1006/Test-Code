@@ -1,4 +1,7 @@
  // javascript
-var dataset = d3.csv("testdata.csv", function(data){
-    console.log(data)
+d3.csv("Testdate.csv", function(data) {
+    for (var i = 0; i < data.length; i++) {
+        console.log(data[i].RpYr);
+        console.log(data[i].RpWk);
+    }
 });
